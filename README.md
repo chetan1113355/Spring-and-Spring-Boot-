@@ -87,17 +87,25 @@ Realtime Example:
 
 7. Sprint Framework 
 
-                    Spring Boot
-                         │
-        ┌────────────────┼─────────────────┐
-        ↓                ↓                 ↓
-    Spring MVC       Spring Data       Spring AOP       Spring Security
-        │                │                 │                 │
-        └────────────────┴─────────────────┴─────────────────┘
-                         ↓
-                    Spring Core
-                         │
-                  DI, IoC, Beans, ...
+
+```markdown
+```text
+                         Spring Boot
+                              │
+          ┌───────────────────┼───────────────────┐
+          │                   │                   │
+          ↓                   ↓                   ↓
+     Spring MVC          Spring Data          Spring AOP
+          │                   │                   │
+          └───────────────────┬───────────────────┘
+                              │
+                              ↓
+                       Spring Security
+                              │
+                              ↓
+                         Spring Core
+                              │
+                    IoC • DI • Beans
 
 	- Spring Core → The foundation of Spring. Provides IoC, Dependency Injection (DI), and Beans.
 	- Spring MVC → Used to build web applications and REST APIs.
