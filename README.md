@@ -56,7 +56,7 @@ does the same thing as above by doing encryption of request and response
 5xx → Server problem
 ```
 
-5. A port number
+## 5. A port number
 
 Port number is a logical number used to identify a specific network service/application on a device.
 
@@ -71,7 +71,7 @@ Port number is a logical number used to identify a specific network service/appl
 - Application = person/service inside that room
 
 ```
-6. servelet
+## 6. servelet
 
 - java class runs in servelet container
 
