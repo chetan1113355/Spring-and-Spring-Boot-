@@ -1,7 +1,5 @@
 # Spring-and-Spring-Boot
 
-# Spring-and-Spring-Boot
-
 # DAY 1
 
 ## 1. Client -> Server communication architecture
