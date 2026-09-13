@@ -54,6 +54,7 @@ does the same thing as above by doing encryption of request and response
 3xx → Redirection
 4xx → Client/request problem
 5xx → Server problem
+```
 
 5. A port number
 
@@ -69,6 +70,7 @@ IP address = building address 🏢
 Port number = apartment/room number 🚪
 Application = person/service inside that room
 
+```
 6. servelet
 
 java class runs in servelet container
@@ -102,12 +104,13 @@ Servlet
 Tomcat
   ↓ HTTP Response
 Client
+```
 
 
-```markdown
-```text
 
 ## 7. Sprint Framework 
+```markdown
+```text
                          Spring Boot
                               │
           ┌───────────────────┼───────────────────┐
@@ -132,10 +135,10 @@ Client
 	- Spring Security → Provides authentication and authorization.
 	- Spring Boot → Makes it easier to configure and build Spring applications by providing auto-configuration, embedded servers, starters, etc.
 
-
+```
 
 ## 8. Sprint Framework Architecture Workflow 
-
+```text
                    Client
                       │
                       ↓
@@ -150,3 +153,6 @@ Client
       └───────────────┼────────────────┘
 
                   Spring Core 
+
+```
+
