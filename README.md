@@ -85,11 +85,12 @@ Realtime Example:
 	  ↓ HTTP Response
 	Client
 
-7. Sprint Framework 
 
 
 ```markdown
 ```text
+
+## 7. Sprint Framework 
                          Spring Boot
                               │
           ┌───────────────────┼───────────────────┐
@@ -116,7 +117,7 @@ Realtime Example:
 
 
 
-8. Sprint Framework Architecture Workflow 
+## 8. Sprint Framework Architecture Workflow 
 
                    Client
                       │
