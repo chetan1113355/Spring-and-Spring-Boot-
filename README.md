@@ -59,6 +59,7 @@ does the same thing as above by doing encryption of request and response
 
 Port number is a logical number used to identify a specific network service/application on a device.
 
+```text
 http://       → Protocol
 192.168.1.10  → IP address : every device has its own IP address which is used to communicate with that device
 3000          → Port
@@ -82,6 +83,7 @@ Client sends an HTTP request to the Tomcat server, which forwards it to the appr
 
 The Servlet processes the request and sends an HTTP response back through Tomcat to the Client.
 
+```text
 Client
   ↓ HTTP Request
 Tomcat
