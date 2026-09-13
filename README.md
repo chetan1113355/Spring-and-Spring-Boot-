@@ -105,7 +105,8 @@ Client
 
 
 ## 7. Sprint Framework 
-```markdown                         Spring Boot
+```markdown                
+                         Spring Boot
                               │
           ┌───────────────────┼───────────────────┐
           │                   │                   │
