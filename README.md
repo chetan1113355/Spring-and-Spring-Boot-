@@ -61,28 +61,26 @@ does the same thing as above by doing encryption of request and response
 Port number is a logical number used to identify a specific network service/application on a device.
 
 ```text
-http://       → Protocol
-192.168.1.10  → IP address : every device has its own IP address which is used to communicate with that device
-3000          → Port
-/api/users    → Resource/path
+- http://       → Protocol
+- 192.168.1.10  → IP address : every device has its own IP address which is used to communicate with that device
+- 3000          → Port
+- /api/users    → Resource/path
 
-IP address = building address 🏢
-Port number = apartment/room number 🚪
-Application = person/service inside that room
+- IP address = building address 🏢
+- Port number = apartment/room number 🚪
+- Application = person/service inside that room
 
 ```
 6. servelet
 
-java class runs in servelet container
+- java class runs in servelet container
 
-servelet container: generally called as server (which runs in JVM)
+- **Servelet container:** generally called as server (which runs in JVM)
+- Ex: tomcat, jetty
 
-Ex: tomcat, jetty
-
-Realtime Example:
+- **Realtime Example:**
 
 Client sends an HTTP request to the Tomcat server, which forwards it to the appropriate Servlet.
-
 The Servlet processes the request and sends an HTTP response back through Tomcat to the Client.
 
 ```text
@@ -109,9 +107,7 @@ Client
 
 
 ## 7. Sprint Framework 
-```markdown
-```text
-                         Spring Boot
+```markdown                         Spring Boot
                               │
           ┌───────────────────┼───────────────────┐
           │                   │                   │
@@ -138,7 +134,7 @@ Client
 ```
 
 ## 8. Sprint Framework Architecture Workflow 
-```text
+```markdown   
                    Client
                       │
                       ↓
