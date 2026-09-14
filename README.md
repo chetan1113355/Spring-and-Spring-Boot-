@@ -199,14 +199,14 @@ Client
 	   ↓
 	deploy
 
-Phase	     Purpose
-validate ->  Checks whether the project is correctly configured
-compile	 ->  Compiles Java source code
-test	 ->  Runs unit tests
-package	 ->  Creates the JAR/WAR file
-verify	 ->  Performs additional checks on the packaged application
-install	 ->  Installs the package into your local Maven repository
-deploy	 ->  Uploads the package to a remote Maven repository
+Phase	         Purpose
+1. validate  ->  Checks whether the project is correctly configured
+2. compile	 ->  Compiles Java source code
+3. test	     ->  Runs unit tests
+4. package	 ->  Creates the JAR/WAR file
+5. verify	 ->  Performs additional checks on the packaged application
+6. install	 ->  Installs the package into your local Maven repository
+7. deploy	 ->  Uploads the package to a remote Maven repository
 
 ```
 
