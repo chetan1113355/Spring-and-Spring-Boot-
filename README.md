@@ -152,8 +152,6 @@ Client
 ```
 # DAY 2
 
-Day-2
-
 ## 9. JAR: Java Archives 
 - package which conatins multiple class files , resources(images, properties), folders / packages
 - used to share java code easily 
