@@ -150,4 +150,66 @@ Client
                   Spring Core 
 
 ```
+# DAY 2
+
+Day-2
+
+## 9. JAR: Java Archives 
+- package which conatins multiple class files , resources(images, properties), folders / packages
+- used to share java code easily 
+
+- Liberary: consists of packages and classes which doesnt contains main functions menas which doesnt runs independently 
+- Application: which can run independently , liberaries can be used in applications or other liberaries 
+
+- To use external liberaries we use jar files only
+	Ex: for data base connection ( mysql-connector.jar)
+
+## 10. Maven : is a project management tool 
+
+- **Does below 4 jobs for java application**
+	1. Maintains project folder structure
+	2. Helps to compile java code 
+	3. Creates jar file of app / liberary code 
+	4. Downloads dependencies ( external jar files)
+
+
+
+## 11. POM.xml: file in project code : project object modal XML ( important file for maven )
+
+ - **contains complete information about the project which conatins**
+	 - manages information about all the dependencies in project
+	 - project group id , artifact id etc 
+
+- **Process to download new dependency in project**
+
+- Go to mvnreporsitory website, search dependency name and copy the maven code provided and add it to the dependency tag in POM.xml and click on sync POM xml then mavan will download that dependency and transitive dependencies related to it
+
+## 11.Maven Lifecycle
+
+```markdown 
+	validate
+	   ↓
+	compile
+	   ↓
+	test
+	   ↓
+	package
+	   ↓
+	verify
+	   ↓
+	install
+	   ↓
+	deploy
+
+Phase	     Purpose
+validate ->  Checks whether the project is correctly configured
+compile	 ->  Compiles Java source code
+test	 ->  Runs unit tests
+package	 ->  Creates the JAR/WAR file
+verify	 ->  Performs additional checks on the packaged application
+install	 ->  Installs the package into your local Maven repository
+deploy	 ->  Uploads the package to a remote Maven repository
+
+```
+
 
